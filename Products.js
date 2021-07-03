@@ -19132,7 +19132,7 @@ const taha = [
 ];
 
 router.get("/products", (req, res) => {
-  res.send(taha);
+  res.send(products);
 });
 
 module.exports = router;
