@@ -11,6 +11,14 @@ const test = [
     id: 2,
     name: "zeybek",
   },
+  {
+    id: 3,
+    name: "Berkan",
+  },
+  {
+    id: 4,
+    name: "Korkmaz",
+  },
 ];
 
 const port = process.env.PORT || 4000;
