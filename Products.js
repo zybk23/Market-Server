@@ -19120,8 +19120,19 @@ const products = [
   },
 ];
 
+const taha = [
+  {
+    id: 1,
+    name: "çalıştıı",
+  },
+  {
+    id: 2,
+    name: "Getir",
+  },
+];
+
 router.get("/products", (req, res) => {
-  res.send(JSON.parse(products));
+  res.send(taha);
 });
 
 module.exports = router;
